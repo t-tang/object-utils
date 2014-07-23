@@ -16,19 +16,23 @@ __Comparable__
 Declaring the class as ```implements Comparable<T>``` will forward compareTo to [CompareToBuilder](http://commons.apache.org/proper/commons-lang/javadocs/api-3.1/org/apache/commons/lang3/builder/CompareToBuilder.html#reflectionCompare%28java.lang.Object,%20java.lang.Object%29).
 
 __Comparison__
+
 Extra comparisons are available when using ```implements Comparison<T>```. The extra comparisons simplify compareTo code by providing less, lessEqual, greater, greaterEqual and notEqual methods.
 The comparisons wrap compareTo, however simply declaring ```Comparison<T>``` also provides a compareTo method.
 
 __ToString__
+
 ```implements ToString``` redirects toString to [ReflectionToStringBuilder](http://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/builder/ReflectionToStringBuilder.html#toString%28java.lang.Object%29), instance variables will be added to the string. ToString is non-recursive.
 
 __RecursiveToString__
+
 This interface recursively adds instance variables into toString.
 
 __DeepClone__
 Adding ```implemets DeepClone``` adds a deepClone method delegating to the [Java Deep Cloning library](https://code.google.com/p/cloning/). 
 
 __Mixin' it up__
+
 If you need more than a couple of these aspects, a mixin interface will save typing. For example:
 
 ```java
@@ -42,6 +46,7 @@ public class Point implements CanonicalObject {
 ```
 
 __Overriding__
+
 Overriding an implementation is straightforward, here is a (nonsensical) example for illustration.
 
 ```java
