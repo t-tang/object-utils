@@ -3,7 +3,7 @@ object-utils
 
 __Less mess java.lang__
 
-Getting Java objects off the ground can involve a lot of upfront grunt work. This library aims to save writing yet-another-equals or yet-another-compareTo method. 
+Getting Java objects off the ground can involve a lot of upfront grunt work. This library uses AOP and aims to save writing yet-another-equals or yet-another-compareTo method. 
 
 Declaring a class as ``implements Comparable<T>``` will inject a sensible compareTo method. At the same time, you can override the default by just writing the method yourself. 
 
