@@ -5,7 +5,7 @@ __Less mess java.lang__
 
 Getting Java objects off the ground can involve a lot of upfront grunt work. This library aims to save writing yet-another-equals or yet-another-compareTo method. 
 
-Declaring a class as ``implements Comparable<T>``` will inject a sensible compareTo method. The class is able to provide an override the method if the default is unsuitable.
+Declaring a class as ``implements Comparable<T>``` will inject a sensible compareTo method. At the same time, you can override the default by just writing the method yourself. 
 
 __Equality__
 
