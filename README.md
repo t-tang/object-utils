@@ -7,7 +7,7 @@ Getting Java objects off the ground can involve a lot of upfront grunt work. Thi
 
 __Equality__
 
-To implement equals and hashCode in a consistent manner, simply declare the class as ```implements Equality```. AspectJ will delegate to [EqualsBuilder.reflectionEquals](http://commons.apache.org/proper/commons-lang/javadocs/api-3.1/org/apache/commons/lang3/builder/EqualsBuilder.html#reflectionEquals%28java.lang.Object,%20java.lang.Object,%20boolean%29) and [HashCodeBuilder.reflectionHashCode](http://commons.apache.org/proper/commons-lang/javadocs/api-3.1/org/apache/commons/lang3/builder/HashCodeBuilder.html#reflectionHashCode%28java.lang.Object,%20java.lang.String...%29).
+To implement equals and hashCode in a consistent manner, declare the class as ```implements Equality```. AspectJ will delegate to [EqualsBuilder.reflectionEquals](http://commons.apache.org/proper/commons-lang/javadocs/api-3.1/org/apache/commons/lang3/builder/EqualsBuilder.html#reflectionEquals%28java.lang.Object,%20java.lang.Object,%20boolean%29) and [HashCodeBuilder.reflectionHashCode](http://commons.apache.org/proper/commons-lang/javadocs/api-3.1/org/apache/commons/lang3/builder/HashCodeBuilder.html#reflectionHashCode%28java.lang.Object,%20java.lang.String...%29).
 
 __Comparable__
 
