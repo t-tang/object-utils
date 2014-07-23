@@ -18,7 +18,7 @@ Declaring the class as ```implements Comparable<T>``` will forward compareTo to 
 __Comparison__
 
 Extra comparisons are available when using ```implements Comparison<T>```. The extra comparisons simplify compareTo code by providing less, lessEqual, greater, greaterEqual and notEqual methods.
-The comparisons wrap compareTo, however simply declaring ```Comparison<T>``` also provides a compareTo method.
+The comparisons wrap compareTo, however simply declaring ```Comparison<T>``` will provide a compareTo method.
 
 __ToString__
 
