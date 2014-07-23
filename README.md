@@ -3,7 +3,7 @@ object-utils
 
 __Less mess java.lang__
 
-Getting Java objects off the ground can involve a lot of upfront grunt work. This library aims to save writing yet-another-equals or yet-another-compareTo method. The library uses AspectJ AOP to provide sensible implementations from open source libraries. If the default implementation is not suitable, the method can be overriden by the class.
+Getting Java objects off the ground can involve a lot of upfront grunt work. This library aims to save writing yet-another-equals or yet-another-compareTo method. The library uses AspectJ AOP to provide default implementations from open source libraries. If the default implementation is not suitable, the method can be overriden by the class.
 
 __Equality__
 
