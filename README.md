@@ -58,3 +58,7 @@ Public MyClass implements ToString {
 }
 ````
 
+__Compiling__
+
+[AJDT](http://www.eclipse.org/ajdt/downloads/) is needed to compile this project in Eclipse.
+
